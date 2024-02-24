@@ -1,6 +1,9 @@
 /**
  * VariableTest 클래스는 자바의 기본 데이터 타입을 변수로 선언하고 출력하는 간단한 프로그램입니다.
  * 각 변수는 특정한 타입으로 데이터를 저장하고 출력합니다.
+ * 
+ * @author 이승원
+ * @since 2024.02.24.
  */
 public class VariableTest {
     public static void main(String[] args) {
