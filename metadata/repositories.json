@@ -32,7 +32,7 @@
       "history": {
         "original_shas_preserved": 36,
         "rewritten_commits": 3,
-        "reason": "data.go.kr service key in dummy/Ex76.java",
+        "reason": "credential value replaced",
         "replacement": "[REDACTED]",
         "sha_map": "metadata/sha-map/java-study.tsv"
       },
@@ -52,8 +52,7 @@
           "redaction: author, committer, dates, message identical for every commit",
           "redaction: parent graph identical after SHA mapping",
           "redaction: every other path/mode identical; 3 changed blob entries differ only by the redaction",
-          "redaction: secret datagokr-encoded absent from all 426 objects",
-          "redaction: secret datagokr-decoded absent from all 426 objects",
+          "redaction: replaced values absent from all 426 objects",
           "redaction: tip mapped 342d36e76e -> 3c77607be6"
         ]
       }
@@ -160,8 +159,8 @@
       "history": {
         "original_shas_preserved": 7,
         "rewritten_commits": 22,
-        "reason": "phone numbers in 이승원_0157.sql; root ojdbc6.jar removed (redistribution rights not established)",
-        "replacement": "dummy numbers 010-0000-000N; ojdbc6.jar removed",
+        "reason": "personal data values replaced; third-party binary removed",
+        "replacement": "placeholder values; ojdbc6.jar removed",
         "original_shas": "not published; kept in the owner's private record",
         "rewritten": [
           {
@@ -294,9 +293,7 @@
           "redaction: every other path/mode identical; 1 changed blob entries differ only by the redaction",
           "redaction: removed entries ['ojdbc6.jar']: 22 path entries across all commits, none left",
           "redaction: removed jar blobs absent from the redacted repository's object store",
-          "redaction: secret phone-1 absent from all 461 objects",
-          "redaction: secret phone-2 absent from all 461 objects",
-          "redaction: secret phone-3 absent from all 461 objects",
+          "redaction: replaced values absent from all 461 objects",
           "redaction: tip mapped (original SHA not published)"
         ]
       }
@@ -481,7 +478,7 @@
       "history": {
         "original_shas_preserved": 1,
         "rewritten_commits": 1,
-        "reason": "COS (cos.jar) binary removed",
+        "reason": "third-party binary removed",
         "replacement": "cos.jar removed",
         "sha_map": "metadata/sha-map/server-jsp.tsv"
       },
@@ -570,7 +567,7 @@
       "history": {
         "original_shas_preserved": 0,
         "rewritten_commits": 5,
-        "reason": "external site login values in Eclipse local history (.metadata/.plugins/org.eclipse.core.resources/.history); Oracle JDBC (ojdbc6.jar) and COS (cos.jar) binaries removed at every path",
+        "reason": "credential values replaced; third-party binaries removed",
         "replacement": "[REDACTED]; ojdbc6.jar and cos.jar removed",
         "original_shas": "not published; kept in the owner's private record",
         "rewritten": [
@@ -619,10 +616,7 @@
           "redaction: every other path/mode identical; 52 changed blob entries differ only by the redaction",
           "redaction: removed entries ['d20359ea41', 'ea39c98967']: 36 path entries across all commits, none left",
           "redaction: removed jar blobs absent from the redacted repository's object store",
-          "redaction: secret lms-id absent from all 7440 objects",
-          "redaction: secret lms-pw absent from all 7440 objects",
-          "redaction: secret ctx:lms-id absent from all 7440 objects",
-          "redaction: secret ctx:lms-pw absent from all 7440 objects",
+          "redaction: replaced values absent from all 7440 objects",
           "redaction: tip mapped (original SHA not published)"
         ]
       }
