@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- ex02_whitespace.html -->
+	
+	<!--
+		공백 문자
+		공백 문자(Whitespace)는 엔터, 탭, 스페이스를 말한다.
+		페이지 소스에 있는 공백 문자들을 브라우저가 처리하는 규칙이 있다.
+		HTML에서는 모든 게 출력 내용이 된다.
+		소스상의 종류와 상관 없이 1개 이상 연속된 공백 문자들을 단 1개의 공백 문자(스페이스)로 치환해서 화면에 출력한다.
+		
+		공백 문자를 처리하는 방법
+		1. 스페이스 표현
+		공백 1글자당 엔티티를 1개 사용해야 한다.
+		&엔티티명;
+		&nbsp;
+		
+		출력할 때 공백 1개로 바꿔서 출력을 한다.
+		non-break space
+		
+		2. 탭문서
+		불가능하다.
+		웹 문서(브라우저)에는 탭의 개념이 없다.
+		
+		3. 개행문자
+		
+		
+	-->
+	
+	하나     둘     셋
+	넷          다섯
+	
+	<!-- html에서 스페이스 표현 -->
+	하나&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;둘&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;셋
+	넷&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;다섯
+	
+	<!-- html에서 개행 표현 -->
+	하나&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;둘&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;셋
+	<br>
+	넷&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;다섯
+	
+	
+</body>
+</html>

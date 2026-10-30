@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<!-- 
+
+		셀병합
+		가로로 인접한 셀끼리 합치면 가로 셀병합, 세로로 인접한 셀끼리 합치면 세로 셀병합이다.
+		
+		1. 가로 셀병합
+		2. 세로 셀병합
+	
+		두 개의 컬럼만큼 너비를 확장하라는 명령을 줄 수 있다.
+
+	-->
+	
+	<h1>원본 테이블</h1>
+
+	<table border width="200" height="200">
+		<tr>
+			<td>1</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>4</td>
+		</tr>
+	</table>
+	
+	<h1>가로 셀병합</h1>
+
+	<table border width="200" height="200">
+		<tr>
+			<td colspan="2">1</td>
+			<!-- <td>2</td> -->
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>4</td>
+		</tr>
+	</table>
+	
+	<h1>세로 셀병합</h1>
+
+	<table border width="200" height="200">
+		<tr>
+			<td rowspan="2">1</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<!-- <td>3</td> -->
+			<td>4</td>
+		</tr>
+	</table>
+</body>
+</html>

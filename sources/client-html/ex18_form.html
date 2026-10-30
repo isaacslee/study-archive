@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- 
+	
+	<form> 태그는 프로그래머적으로 가장 많이 쓴다.
+	
+	Form (폼)
+	Form은 입력양식 즉, 입력 컨트롤을 의미한다.
+	클라이언트(사용자)로부터 입력장치(키보드, 마우스, 터치 등)을 통해서 데이터를 입력받는 역할을 한다.
+	입력 데이터를 서버로 전송하며, 이를 업무에 활용하거나 데이터베이스에 저장하는 등의 일을 하게 된다.
+	예로 들어 텍스트 박스, 버튼, 체크 박스, 라디오 버튼 등이 있다.
+	
+	<h1>데이터 입력</h1>
+	
+	<form method="POST" action="ex18_server.jsp">
+		나이: <input type="text" name="age">
+		<br>
+		<input type="submit" value="보내기">
+	</form>
+	
+	<h1>데이터 입력</h1>
+	
+	<form method="GET" action="ex18_server.jsp">
+		나이: <input type="text" name="age">
+		<br>
+		<input type="submit" value="보내기">
+	</form>
+	
+	<hr>
+	
+	-->
+	
+		<!-- 
+			<input>
+			인라인 태그이고, 단독 태그이다.
+			
+			input.type: 입력 컨트롤 종류 지정
+			입력할 수 있는 컨트롤 종류에는 20개 정도 있다.
+			
+			input.name: 식별자 (HTML에서 서버측과 연동할 떄 사용)
+			input.id: 식별자 (CSS, JavaScript에서 사용)
+			input.class: 식별자 (CSS, JavaScript에서 사용)
+			
+			input.size: 길이 (글자 수)
+			input.maxlength: 최대 입력 길이 (글자 수)
+			input.value: 컨트롤의 입력값 (현재 입력 값)
+			input.readonly: 읽기전용 (전원 ON)
+			input.disabled: 비활성화 (전원 OFF)
+			input.accesskey: 바로 가기 (Alt + 조합키)
+			input.autofocus: 자동 포커스
+			
+			readonly와 disabled는 둘 다 수정을 못 하지만 readonly는 전송 버튼을 누르면 서버로 전송이 되며, disabled는 서버로 전송이 되지 않는다는 차이가 있다.
+			
+		-->
+		<!-- 
+		텍스트 박스(단일 라인):
+		<input type="text" name="txt1" id="txt2" class="txt" size="30" maxlength="5" value="Isaac" accesskey="s" autofocus autocomplete="off">
+		
+		<hr>
+		
+		<input type="submit" value="보내기">
+		 -->
+		<!-- 
+		체크 박스:
+		<input type="checkbox">
+		 -->
+		 
+		 
+		 <!-- 
+		 
+		 암호 상자
+		 암호 상자(Password Box, Masked Text Box)는 모든 속성이 텍스트 박스와 동일하다.
+		 
+		  텍스트 박스(암호): 
+		 <input type="password">
+		 
+		 <hr>
+		 <input type="submit" value="보내기">
+		 
+		텍스트 박스(단일 라인):
+		<input type="text" name="txt1" id="txt2" class="txt" size="30" maxlength="5" value="Isaac" accesskey="s" autofocus autocomplete="off">
+		
+		<hr>
+		텍스트 박스(암호): 
+		<input type="password">
+		<hr>
+		 
+		 -->
+		 
+	<h1>폼 컨트롤</h1>
+	
+	<form method="POST" action="ex18_server.jsp">
+	
+	<!-- 
+		텍스트 박스(다중 라인)
+		<textarea>
+		쌍태그이다.
+		대부분의 속성은 텍스트 박스와 유사하다.
+		많은 양의 텍스트를 입력받을 수 있도록 만들어 두었기 때문에 maxlength 속성이 없다.
+		텍스트 박스(다중 라인):
+		<textarea cols="50" rows="5" style="resize:none;">아
+이
+작</textarea>
+
+		체크박스
+		선택을 했느냐 안 했느냐의 논리값을 입력할 때 사용한다.
+		
+		체크박스:
+		<input type="checkbox">
+		
+		<h3>취미 선택</h3>
+		<input type="checkbox" id="cb1"> <label for="cb1"> 독서 </label>
+		<input type="checkbox" id="cb2"> <label for="cb2"> 달리기 </label>
+		<input type="checkbox"> 영화보기
+	-->		
+		
+		<!-- 
+			라디오 버튼
+			체크 박스와 유사하다.
+		
+			<input type="radio" name="rbGender"> 남자
+			<input type="radio" name="rbGender"> 여자
+			<input type="radio" name="rbGender" checked> 선택안함
+			
+			
+			셀렉트 박스
+			콤보(Combo) 박스 또는 드랍 다운 리스트(Drop Down List)라고도 부른다.
+			셀렉트 박스:
+		<select>
+			<optgroup label="자바">
+				<option>클래스</option>
+				<option>메소드</option>
+				<option>배열</option>
+			</optgroup>
+			<optgroup label="오라클">
+				<option>테이블</option>
+				<option>서브쿼리</option>
+				<option>조인</option>
+				<option>프로시터</option>
+			</optgroup>
+			<optgroup label="HTML">
+				<option>태그</option>
+				<option>엔티티</option>
+				<option>PCDATA</option>
+			</optgroup>
+		</select>
+		
+		파일 선택:
+		<input type="file">
+		
+		히든 태그:
+		<input type="hidden" name="txtName" value="Isaac">
+		
+		<hr>
+		<input type="submit" value="보내기">
+
+		-->
+		
+		
+		전송 버튼: <input type="submit" value="전송하기">
+		<br>
+		취소 버튼: <input type="reset" value="초기화">
+		<br>
+		이미지 버튼(전송 버튼): <input type="image" src="images/chromi.png" width="30" height="30">
+		<br>
+		버튼: <input type="button" value="단독 태그  버튼">
+		<br>
+		<!-- 
+		버튼: <input type="button" value="전송 버튼" onclick="this.form.submit();">
+		<br>
+		버튼: <input type="button" value="취소 버튼" onclick="this.form.reset();">
+		<br>
+		버튼: <input type="button" value="블로그 이동 버튼" onclick="this.form."location.href='https://isaac-christian.tistory.com/';">
+		<br>
+		-->
+		버튼: <button><img src="images/chromi.png" width="30" height="30">쌍태그 버튼</button>
+		
+		<!-- 
+		
+			ex01.html ~ ex18.html : HTML 4.01 _ XHTML 1.0 (~2014년까지의 웹)
+			ex19.html ~ 		  : HTML 5
+		
+		 -->
+		
+	</form>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</body>
+</html>
