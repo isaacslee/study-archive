@@ -1,0 +1,87 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #E5E8E9;
+}
+
+header {
+    background-color: #34495f;
+    color: #FFF;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+    float: left;
+    font-size: 1.5rem;
+}
+
+header > div {
+    width: 1040px;
+    /* background-color: gold; */
+    margin: 0 auto; /* 중앙 정렬 */
+}
+
+header > div > div {
+    float: right;
+    margin-top: 5px; /* 아이콘 높이 header와 맞추기 */
+}
+
+header > div::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+header > div > div > i {
+    margin-right: 20px; /* 아이콘 사이의 간격 */
+}
+
+section {
+    width: 1040px;
+    /* background-color: gold; */
+    margin: 0 auto; /* 중앙 정렬 */
+}
+
+section .title {
+    background-color: #FFF;
+    padding: 15px 15px 7px 15px;
+}
+
+section .title div:nth-child(1) {
+    color: #87acd1;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+section .title div:nth-child(2) {
+    color: #555;
+    font-size: 0.8rem;
+}
+
+section .content {
+    padding: 20px;
+    column-count: 5;
+}
+
+section .content .item { /* 콘텐츠 영역 */
+    border: 1px solid #AAA;
+    width: 160px;
+    margin: 0px auto 15px auto;
+    font-size: 14px;
+    background-color: #FFF;
+    color: #333;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px #999;
+    page-break-inside: avoid; /* 페이지 분리 현상 제거 */
+}
+
+section .content .item img {
+    display: block;
+    margin: 20px auto; /* 블럭 태그는 스스로 정렬할 수 있으므로 auto */
+    box-shadow: -1px -1px 1px #888;
+}
+
+section .content .item .txt {
+    margin: 0px 12px 20px 12px;
+}

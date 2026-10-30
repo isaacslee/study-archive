@@ -1,0 +1,28 @@
+body {
+    padding-bottom: 500px; /* body의 영역을 넓힘 (margin은 객체의 영역이 아니므로 padding을 사용) */
+}
+
+#box {
+    border: 10px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+    margin: 100px;
+    transition-property: all;
+    transition-duration: 1.2s;
+    overflow: hidden;
+}
+
+body:hover #box {
+    width: 600px;
+    height: 600px;
+    background-color: tomato;
+    font-size: 10rem;
+    opacity: 0.9;
+    border-radius: 10%;
+    box-shadow: 5px 5px 10px #555;
+    margin-left: 300px;
+    border-width: 20px;
+    transform: translate(10px, 10px);
+    transform: rotate(360deg);
+}

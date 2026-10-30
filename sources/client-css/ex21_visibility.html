@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        #cat2 {
+            visibility: visible;
+        }
+
+        /* #cat1:hover {
+            visibility: hidden;
+        } */
+
+        /* #cat1:hover ~ img {
+            visibility: hidden;
+        } */
+        
+        #box {
+            border: 10px solid black;
+            padding: 30px;
+        }
+
+        #box:hover > img {
+            visibility: hidden;
+        }
+        
+    </style>
+
+</head>
+<body>
+    
+    <div id="box">
+        <img src="../asset/images/catty02.png" id="cat1">
+        <img src="../asset/images/catty04.png" id="cat2">
+        <img src="../asset/images/catty05.png" id="cat3">
+    </div>
+
+</body>
+</html>

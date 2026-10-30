@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p > span {
+            color: blue;
+        }
+        /* p > span::before {
+            content: '[';
+            color: orange;
+        }
+        p > span::after {
+            content: ']';
+            color: orange;
+        } */
+        p > span.tel::before {
+            content: '☎';
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium vitae sit fugit aliquid recusandae rerum reiciendis unde nisi quisquam, <span>ullam</span> neque debitis, hic consequuntur voluptatum natus nulla iure reprehenderit?
+    Inventore unde fugiat exercitationem, officiis fugit quaerat rem quod voluptates distinctio, aspernatur similique ea nesciunt ipsum <span class="tel">010-1234-5678</span>enim iure debitis error? Eius <span>voluptatum</span> labore vel quibusdam voluptatibus esse praesentium quasi enim?
+    Est quia, in deserunt explicabo ipsum ab laborum et. Vel vero illo blanditiis <span>libero</span> optio et, voluptates consequuntur, exercitationem, ducimus distinctio itaque expedita a eos nobis fugiat? Maxime, similique. Deserunt?</p>
+</body>
+</html>

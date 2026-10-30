@@ -1,0 +1,44 @@
+#main-menu > img, #side-menu > img, #footer-menu > img {
+    transition-property: all;
+    transition-duration: .7s;
+}
+
+#main-menu {
+    border: 0px solid black;
+    font-size: 0;
+    width: 630px;
+    margin: 0 auto;
+    transform: translate(0px, -100px);
+}
+
+#main-menu > img:hover {
+    transform: translate(0px, 90px);
+}
+
+#side-menu {
+    border: 0px solid black;
+    font-size: 0;
+    width: 126px;
+    /* margin: 0 auto; */
+    transform: translate(-105px, 0px);
+}
+
+#side-menu > img:hover {
+    transform: translate(95px, 0px);
+}
+
+#footer-menu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 0px solid black;
+    font-size: 0;
+    width: 630px;
+    margin: 0 auto;
+    transform: translate(0px, 90px);
+}
+
+#footer-menu > img:hover {
+    transform: translate(0px, -90px);
+}

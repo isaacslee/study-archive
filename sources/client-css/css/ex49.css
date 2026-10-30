@@ -1,0 +1,29 @@
+#box {
+    border: 20px solid black;
+    width: 500px;
+    height: 800px;
+}
+
+#ball {
+    background-color: dodgerblue;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto; /* 가운데 정렬 */
+
+    animation-name: key-ball;
+    animation-duration: .7s;
+    /* animation-fill-mode: forwards; */
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+
+@keyframes key-ball {
+    from {
+        transform: translate(0px, 0px);
+    }
+    to {
+        transform: translate(0px, 750px);
+    }
+}

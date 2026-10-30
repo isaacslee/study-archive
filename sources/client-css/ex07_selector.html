@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /*         
+        p + p
+            color: blue;
+        }
+        */
+
+        hr ~ p {
+            color: blue;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    
+    <!--     
+        인접 형제 선택자 (Adjacent Sibling Selector)
+
+        선택자 + 선택자 {
+            구현부;
+        }
+
+
+        형제 선택자 (Sibling Selector)
+        선택자 ~ 선택자 {
+            구현부;
+        }
+    
+    -->
+
+
+    <p>p 태그</p>
+    <p>p 태그</p>
+    <p>p 태그</p>
+    <span>span 태그</span>
+    <hr>
+    <p>p 태그</p>
+    <span>span 태그</span>
+    <p>p 태그</p>
+    <div>div 태그</div>
+    <span>span 태그</span>
+    
+</body>
+</html>

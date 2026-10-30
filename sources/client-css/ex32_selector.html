@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #item {
+            border: 1px solid black;
+        }
+
+        #item #cb3 {
+            display: none;
+        }
+
+        #item label {
+            font-size: 1.5rem;
+            font-family: Arial;
+            font-variant: small-caps;
+            display: block;
+            padding: 10px;
+            background-color: cornflowerblue;
+            color: white;
+            cursor: pointer;
+        }
+
+        #item div {
+            padding: 15px;
+            border-top: 1px solid black;
+            display: none;
+        }
+
+        #item #cb3:checked ~ div {
+            display: block;
+        }
+
+        #item #cb3:checked ~ label {
+            background-color: tomato;
+        }
+    </style>
+</head>
+<body>
+    <div id="item">
+        <input type="checkbox" id="cb3">
+        <label for="cb3">Java</label>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut sit velit labore eius, consectetur illo dolorem veritatis totam nihil doloremque magni est! Reiciendis deleniti consequatur perferendis, dolorem deserunt explicabo corrupti.
+        Explicabo neque blanditiis sunt aliquam dignissimos eum omnis accusamus quae ad nisi accusantium labore culpa quisquam, assumenda error consectetur, eligendi saepe nam at ut nulla. Obcaecati, ullam! Voluptatibus, soluta ipsum.
+        Tenetur libero vel autem sit sapiente hic vitae ea obcaecati animi, at nostrum tempora debitis cupiditate in fugit quisquam corrupti inventore? At, vitae consequatur temporibus commodi est excepturi minima error.
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        /* #box1 { color: orange; 
+
+        .box { color: blue; }
+        
+        div { color: red; }}
+
+        body > div { color: blue; }
+
+        div { color: red; }
+
+        div#box1.box { color: red;}
+
+        div + div { }
+
+        .one { }
+
+        .box.one { color: blue; }
+         */
+
+         /* 클래스 선택자 (0, 1, 0) */
+         .t1 { color: blue; }
+
+         /* 태그 선택자 (0, 0, 11) */
+         div > div > div > div > div > div > div > div > div > div > div{ color: red; }
+
+    </style>
+
+</head>
+<body>
+    
+    <!-- <div id="box1" class="box one">상자</div> -->
+
+    <div>
+        <div>
+            <div>
+                <div>
+                    <div>
+                        <div>
+                            <div>
+                                <div>
+                                    <div>
+                                        <div>
+                                            <div class="t1">상자</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/a92e13dcf8.js" crossorigin="anonymous"></script>
+    <style>
+        /*
+        #box {
+            border: 1px solid black;
+            width: 600px;
+            height: 300px;
+            margin: 50px;
+        }
+        #txt1 {
+            border-radius: 20px;
+            border: 1px solid #777;
+            outline: none;
+            padding: 5px 10px;
+        }
+        body {
+            margin-bottom: 500px;
+        }
+        */
+
+        #search1 {
+            width: 245px; /* body(창의 크기)가 작아져도 영향받지 않게 함 */
+        }
+
+        #search1 input {
+            float: left;
+            border: 1px solid #777;
+            color: #333;
+            padding: 5px; /* 높이를 높임 */
+        }
+
+        #search1 input[type=text] {
+            border-right: 0; /* text와 button을 사이가 연결되어 보이게 함 */
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+
+        #search1 input[type=button] {
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+        #search1::after { /* 가상 요소를 생성하여 float 초기화 */
+            content: '';
+            display: block;
+            clear: both;
+        }
+        
+        
+        #search2 {
+            width: 245px; /* body(창의 크기)가 작아져도 영향받지 않게 함 */
+        }
+
+        #search2 input, #search2 button {
+            float: left;
+            border: 1px solid #777;
+            color: #333;
+            padding: 5px; /* 높이를 높임 */
+            outline: none;
+        }
+
+        #search2 input[type=text] {
+            border-right: 0; /* text와 button을 사이가 연결되어 보이게 함 */
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+
+        #search2 button {
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+            color: cornflowerblue;
+        }
+
+        #search2 button:hover {
+            background-color: #DDD;
+        }
+
+        #search2::after { /* 가상 요소를 생성하여 float 초기화 */
+            content: '';
+            display: block;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>기본값</h1>
+    <div id="search">
+        <input type="text" placeholder="검색어를 입력하세요.">
+        <input type="button" value="Search">
+    </div>
+
+    <hr>
+
+    <h1>검색1</h1>
+    <div id="search1">
+        <input type="text" placeholder="검색어를 입력하세요.">
+        <input type="button" value="Search">
+    </div>
+
+    <hr>
+
+    <h1>검색2</h1>
+    <div id="search2">
+        <input type="text" placeholder="검색어를 입력하세요.">
+        <button>
+            <i class="fa-solid fa-compass"></i>
+        </button>
+    </div>
+
+    <hr>
+
+    <!--
+    <input type="text" id="txt1" size="30"> 
+    <div id="cat">
+        <img src="../asset/images/cat01.jpg">
+        <img src="../asset/images/cat02.jpg">
+        <img src="../asset/images/cat03.jpg">
+        <img src="../asset/images/cat04.jpg">
+        <img src="../asset/images/cat05.jpg">
+    </div>
+    <div id="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptas ipsum impedit, quis nam repudiandae ea praesentium repellat architecto dolor soluta porro cupiditate quam! Sapiente commodi animi voluptas expedita! Laudantium. Facilis, sunt vel? Dolorem praesentium saepe atque neque at. Est, porro nostrum libero sequi dolorem dicta voluptatem adipisci obcaecati numquam mollitia.</div>
+    -->
+</body>
+</html>

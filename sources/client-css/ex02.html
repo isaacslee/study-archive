@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* 내부 스타일 시트 */
+        li {
+            font-style: italic;
+        }
+    </style>
+    <link rel="stylesheet" href="./ex02.css">
+</head>
+<body>
+    
+    <!--
+
+        HTML <- (연결) -> CSS
+        
+        HTML 문서에 CSS를 적용하는 방법을 알아보도록 하자.
+
+        1. 인라인 스타일 시트 (Inline Style Sheet)
+        우리가 사용하는 모든 태그에는 style이라는 속성값을 가지고 있다.
+        이 style 속성값은 인라인 스타일 시트를 위한 속성값이다.
+        태그 안에 직접 작성한다고 해서 인라인 스타일 시트라고 한다.
+        서식을 태그에 직접 적용한다는 특징이 있다.
+
+        장점: 가독성이 높다.
+        단점: 재사용이 불가능하다.
+
+
+        2. 내부 스타일 시트 (Embeded Style Sheet)
+        <style> 태그 내에 서식을 명시하는 방법이다.
+        <sytle> 태그는 관리를 편하게 하기 위해서 관리상 보통 <head> 태그 끝에 넣는 게 일반적이다.
+        <head> 태그 내에 작성하는 스타일 시트를 내부 스타일 시트라고 한다.
+        문서 내의 여러 태그를 한 번에 서식을 일괄 적용할 수 있다.
+        
+        장점: 재사용이 가능하다.
+        단점: 가독성이 낮다.
+
+
+        3. 외부 스타일 시트 (External Style Sheet)
+        *.css 파일에 서식을 명시하는 방법이다.
+        <link> 태그를 사용해서 CSS 파일을 HTML 파일에게 적용해야 한다.
+        HTML 파일에 종속되지 않고 문서를 별도로 분리했기 때문에 재사용성이 가장 높지만, 가독성이 가장 낮다.
+
+        장점: 재사용성이 가장 높다.
+        단점: 가독성이 가장 낮다.
+
+    -->
+
+    <h2>오늘의 할 일</h2>
+
+    <ul>
+        <li style="color: blue">VS CODE 설치하기</li>
+        <li>VS CODE 설정하기</li>
+        <li style="color: orange">수업 복습하기</li>
+        <li>개인 과제 제출하기</li>
+    </ul>
+
+
+
+
+
+</body>
+</html>
