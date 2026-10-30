@@ -1,0 +1,748 @@
+{
+  "archive": "isaacslee/study-archive",
+  "method": "subtree merge: git merge -s ours --allow-unrelated-histories + git read-tree --prefix=sources/<name>/",
+  "excluded": [
+    {
+      "name": "spring-boot-react-study",
+      "reason": "empty repository (no commits)"
+    }
+  ],
+  "repositories": [
+    {
+      "name": "java-study",
+      "url": "https://github.com/isaacslee/java-study",
+      "visibility_at_import": "public",
+      "default_branch": "main",
+      "branches": [
+        "main"
+      ],
+      "tags": [],
+      "path": "sources/java-study",
+      "source_tag": "source/java-study",
+      "original_tip": "342d36e76e07ded04d7be1ff60621309092048fa",
+      "original_tree": "de7dc2ef8ad61a1b700273a47a93ea621cd8a0f2",
+      "archived_tip": "3c77607be67922e0a6f9350b8e23e78bf07fc646",
+      "archived_tree": "5c06abb499fd5575f21d13f0be6ba301868b3ac0",
+      "commit_count": 39,
+      "first_commit_date": "2023-07-18T10:38:01+09:00",
+      "last_commit_date": "2023-08-26T21:27:59+09:00",
+      "import_commit": "4bae72889044220f7b95944035d60c92a69145c9",
+      "imported_at": "2026-10-30T14:31:14+09:00",
+      "issues_prs_releases": "not checked (public repository; GitHub API not reachable from the import environment)",
+      "history": {
+        "original_shas_preserved": 36,
+        "rewritten_commits": 3,
+        "reason": "data.go.kr service key in dummy/Ex76.java",
+        "replacement": "[REDACTED]",
+        "sha_map": "metadata/sha-map/java-study.tsv"
+      },
+      "verification": {
+        "result": "pass",
+        "checks": [
+          "original commits present (39)",
+          "commit objects byte-identical (author/date/message/parents/signature)",
+          "tip 3c77607be67922e0a6f9350b8e23e78bf07fc646 is ancestor of HEAD",
+          "tag source/java-study points at original tip",
+          "rev-list count 39 == 39",
+          "tree hash HEAD:sources/java-study == 5c06abb499fd5575f21d13f0be6ba301868b3ac0",
+          "file listing identical (237 files)",
+          "worktree clean after import",
+          "redaction: commit count 39 == 39",
+          "redaction: 36 unaffected commits keep original SHA and bytes",
+          "redaction: author, committer, dates, message identical for every commit",
+          "redaction: parent graph identical after SHA mapping",
+          "redaction: every other path/mode identical; 3 changed blob entries differ only by the redaction",
+          "redaction: secret datagokr-encoded absent from all 426 objects",
+          "redaction: secret datagokr-decoded absent from all 426 objects",
+          "redaction: tip mapped 342d36e76e -> 3c77607be6"
+        ]
+      }
+    },
+    {
+      "name": "java-question",
+      "url": "https://github.com/isaacslee/java-question",
+      "visibility_at_import": "public",
+      "default_branch": "main",
+      "branches": [
+        "main"
+      ],
+      "tags": [],
+      "path": "sources/java-question",
+      "source_tag": "source/java-question",
+      "original_tip": "e38ef87902c91b004069e2cc2245379874c033f4",
+      "original_tree": "98147164eae1d5815ac9f03fd36a8d76441a45d1",
+      "archived_tip": "e38ef87902c91b004069e2cc2245379874c033f4",
+      "archived_tree": "98147164eae1d5815ac9f03fd36a8d76441a45d1",
+      "commit_count": 34,
+      "first_commit_date": "2023-07-19T21:00:00+09:00",
+      "last_commit_date": "2023-08-08T17:32:35+09:00",
+      "import_commit": "34ea4afc0d4715b5ce21f4f2323c863de12fab66",
+      "imported_at": "2026-10-30T14:31:14+09:00",
+      "issues_prs_releases": "not checked (public repository; GitHub API not reachable from the import environment)",
+      "history": {
+        "original_shas_preserved": 34,
+        "rewritten_commits": 0
+      },
+      "verification": {
+        "result": "pass",
+        "checks": [
+          "original commits present (34)",
+          "commit objects byte-identical (author/date/message/parents/signature)",
+          "tip e38ef87902c91b004069e2cc2245379874c033f4 is ancestor of HEAD",
+          "tag source/java-question points at original tip",
+          "rev-list count 34 == 34",
+          "tree hash HEAD:sources/java-question == 98147164eae1d5815ac9f03fd36a8d76441a45d1",
+          "file listing identical (209 files)",
+          "worktree clean after import"
+        ]
+      }
+    },
+    {
+      "name": "java-summary",
+      "url": "https://github.com/isaacslee/java-summary",
+      "visibility_at_import": "private",
+      "default_branch": "main",
+      "branches": [
+        "main"
+      ],
+      "tags": [],
+      "path": "sources/java-summary",
+      "source_tag": "source/java-summary",
+      "original_tip": "6b0f7c110f1986792d33ee61a0af1e72f9bfafd2",
+      "original_tree": "f9b1bc70d92479762c1e4394b6ef3d2cebece114",
+      "archived_tip": "6b0f7c110f1986792d33ee61a0af1e72f9bfafd2",
+      "archived_tree": "f9b1bc70d92479762c1e4394b6ef3d2cebece114",
+      "commit_count": 2,
+      "first_commit_date": "2023-07-21T09:03:05+09:00",
+      "last_commit_date": "2023-07-21T09:03:40+09:00",
+      "import_commit": "a51b416531c0a724facb34aedaf502e701e5666f",
+      "imported_at": "2026-10-30T14:31:14+09:00",
+      "issues_prs_releases": "none (0 issues, 0 pull requests, 0 releases; checked via GitHub API)",
+      "history": {
+        "original_shas_preserved": 2,
+        "rewritten_commits": 0
+      },
+      "verification": {
+        "result": "pass",
+        "checks": [
+          "original commits present (2)",
+          "commit objects byte-identical (author/date/message/parents/signature)",
+          "tip 6b0f7c110f1986792d33ee61a0af1e72f9bfafd2 is ancestor of HEAD",
+          "tag source/java-summary points at original tip",
+          "rev-list count 2 == 2",
+          "tree hash HEAD:sources/java-summary == f9b1bc70d92479762c1e4394b6ef3d2cebece114",
+          "file listing identical (6 files)",
+          "worktree clean after import"
+        ]
+      }
+    },
+    {
+      "name": "oracle-study",
+      "url": "https://github.com/isaacslee/oracle-study",
+      "visibility_at_import": "public",
+      "default_branch": "main",
+      "branches": [
+        "main"
+      ],
+      "tags": [],
+      "path": "sources/oracle-study",
+      "source_tag": "source/oracle-study",
+      "original_tip": null,
+      "original_tree": null,
+      "archived_tip": "adb9c6a3cc5bb06e068b6468d4b2c6e6b82c5def",
+      "archived_tree": "d33676331a25d5df119cb953928178a7bf40fbb6",
+      "commit_count": 29,
+      "first_commit_date": "2023-08-25T17:35:03+09:00",
+      "last_commit_date": "2023-09-22T20:47:53+09:00",
+      "import_commit": "4b2430e81c709fbdb6ce4c8d9dc46ae53e588519",
+      "imported_at": "2026-10-30T14:31:15+09:00",
+      "issues_prs_releases": "not checked (public repository; GitHub API not reachable from the import environment)",
+      "history": {
+        "original_shas_preserved": 7,
+        "rewritten_commits": 22,
+        "reason": "phone numbers in 이승원_0157.sql; root ojdbc6.jar removed (redistribution rights not established)",
+        "replacement": "dummy numbers 010-0000-000N; ojdbc6.jar removed",
+        "original_shas": "not published; kept in the owner's private record",
+        "rewritten": [
+          {
+            "archived_sha": "67db43f77ce8aeaec1948b5479dffbfd705f57a7",
+            "author_date": "2023-09-01T11:58:40+09:00",
+            "subject": "6일차 SQL"
+          },
+          {
+            "archived_sha": "20f91161c8ca59c7e0108f7caf4ebee118fd5ff6",
+            "author_date": "2023-09-01T16:36:24+09:00",
+            "subject": "6일차 SQL"
+          },
+          {
+            "archived_sha": "e43d35abee1cd3ce41ad02cde50709fae7e2f413",
+            "author_date": "2023-09-01T23:40:05+09:00",
+            "subject": "6일차 SQL"
+          },
+          {
+            "archived_sha": "430f9fc7d5f1bbc06f2c7f0b76275b99cafb6f7a",
+            "author_date": "2023-09-02T22:13:45+09:00",
+            "subject": "6일차 SQL 문제풀이"
+          },
+          {
+            "archived_sha": "adcc2a4b6accf970a9edbc050335e59617d319bc",
+            "author_date": "2023-09-04T01:30:37+09:00",
+            "subject": "6일차 SQL 문제풀이"
+          },
+          {
+            "archived_sha": "58917c9f65079af1f51ef59b1ed8087e0cd00ef9",
+            "author_date": "2023-09-04T15:16:47+09:00",
+            "subject": "7일차 SQL"
+          },
+          {
+            "archived_sha": "00d9f2a8f5d9e7a8aabd90fe4fe85c380734b2b0",
+            "author_date": "2023-09-04T17:29:15+09:00",
+            "subject": "7일차 SQL"
+          },
+          {
+            "archived_sha": "bc0357bb9ee1916c2b9f4db18858ec903c91fc27",
+            "author_date": "2023-09-05T12:03:49+09:00",
+            "subject": "8일차 SQL"
+          },
+          {
+            "archived_sha": "e04a7941f9f94801059055b70ee0596717d9e5cb",
+            "author_date": "2023-09-05T20:06:36+09:00",
+            "subject": "8일차 SQL"
+          },
+          {
+            "archived_sha": "4e743a237a863f3512f8d35968d2b427e8b0372e",
+            "author_date": "2023-09-06T19:44:09+09:00",
+            "subject": "9일차 SQL"
+          },
+          {
+            "archived_sha": "486d5bc49b8c1453796dc7d27b3695fd96e5398d",
+            "author_date": "2023-09-07T16:11:37+09:00",
+            "subject": "10일차 SQL"
+          },
+          {
+            "archived_sha": "30f33e5d691614c04bd329b1463966f7ba3e3409",
+            "author_date": "2023-09-08T22:57:36+09:00",
+            "subject": "11일차 SQL"
+          },
+          {
+            "archived_sha": "8049f7db810737ae9ca354a4300cfe749c34be20",
+            "author_date": "2023-09-09T15:46:19+09:00",
+            "subject": "11일차 SQL"
+          },
+          {
+            "archived_sha": "4e914b7123e7d9d73538dcf9e95a3f020d3f06a9",
+            "author_date": "2023-09-10T18:50:32+09:00",
+            "subject": "11일차 SQL"
+          },
+          {
+            "archived_sha": "be53de20a8da6929e095e5441e2249533a5d58d8",
+            "author_date": "2023-09-11T22:08:20+09:00",
+            "subject": "12일차 SQL"
+          },
+          {
+            "archived_sha": "428b098266403636a83e3cd9234053eca42f6f68",
+            "author_date": "2023-09-12T20:40:07+09:00",
+            "subject": "13일차 SQL"
+          },
+          {
+            "archived_sha": "1b25eaca82c3a588fd27a80c36b19733248a4d51",
+            "author_date": "2023-09-13T17:04:02+09:00",
+            "subject": "14일차 SQL"
+          },
+          {
+            "archived_sha": "95c8d4f323f80cf679d0d7adbf8343626668198c",
+            "author_date": "2023-09-14T22:16:09+09:00",
+            "subject": "15일차 SQL"
+          },
+          {
+            "archived_sha": "7349b47fa6310dd90bd7265d5453c07f5cfbc8dc",
+            "author_date": "2023-09-15T23:33:38+09:00",
+            "subject": "16일차 SQL"
+          },
+          {
+            "archived_sha": "ac68f5342ff908f96cc66cee77e12d521d19ee2e",
+            "author_date": "2023-09-18T22:08:15+09:00",
+            "subject": "Oracle 18일차"
+          },
+          {
+            "archived_sha": "ef888a0269587d21a2fe1ed825407c02fe15986c",
+            "author_date": "2023-09-20T12:07:38+09:00",
+            "subject": "오라클 개인 프로젝트"
+          },
+          {
+            "archived_sha": "adb9c6a3cc5bb06e068b6468d4b2c6e6b82c5def",
+            "author_date": "2023-09-22T20:47:53+09:00",
+            "subject": "test"
+          }
+        ]
+      },
+      "verification": {
+        "result": "pass",
+        "checks": [
+          "original commits present (29)",
+          "commit objects byte-identical (author/date/message/parents/signature)",
+          "tip adb9c6a3cc5bb06e068b6468d4b2c6e6b82c5def is ancestor of HEAD",
+          "tag source/oracle-study points at original tip",
+          "rev-list count 29 == 29",
+          "tree hash HEAD:sources/oracle-study == d33676331a25d5df119cb953928178a7bf40fbb6",
+          "file listing identical (149 files)",
+          "worktree clean after import",
+          "redaction: commit count 29 == 29",
+          "redaction: 7 unaffected commits keep original SHA and bytes",
+          "redaction: author, committer, dates, message identical for every commit",
+          "redaction: parent graph identical after SHA mapping",
+          "redaction: every other path/mode identical; 1 changed blob entries differ only by the redaction",
+          "redaction: removed entries ['ojdbc6.jar']: 22 path entries across all commits, none left",
+          "redaction: removed jar blobs absent from the redacted repository's object store",
+          "redaction: secret phone-1 absent from all 461 objects",
+          "redaction: secret phone-2 absent from all 461 objects",
+          "redaction: secret phone-3 absent from all 461 objects",
+          "redaction: tip mapped (original SHA not published)"
+        ]
+      }
+    },
+    {
+      "name": "client-html",
+      "url": "https://github.com/isaacslee/client-html",
+      "visibility_at_import": "private",
+      "default_branch": "main",
+      "branches": [
+        "main"
+      ],
+      "tags": [],
+      "path": "sources/client-html",
+      "source_tag": "source/client-html",
+      "original_tip": "c2bba2822e0fd3c12c29bf510ba6b7168f87daeb",
+      "original_tree": "5015503280072526f0d83086dac96e53ec6acd88",
+      "archived_tip": "c2bba2822e0fd3c12c29bf510ba6b7168f87daeb",
+      "archived_tree": "5015503280072526f0d83086dac96e53ec6acd88",
+      "commit_count": 10,
+      "first_commit_date": "2023-09-19T17:31:58+09:00",
+      "last_commit_date": "2023-10-04T20:46:01+09:00",
+      "import_commit": "84e61ac3b50acdc17fd8ea947875974f60667e28",
+      "imported_at": "2026-10-30T14:31:17+09:00",
+      "issues_prs_releases": "none (0 issues, 0 pull requests, 0 releases; checked via GitHub API)",
+      "history": {
+        "original_shas_preserved": 10,
+        "rewritten_commits": 0
+      },
+      "verification": {
+        "result": "pass",
+        "checks": [
+          "original commits present (10)",
+          "commit objects byte-identical (author/date/message/parents/signature)",
+          "tip c2bba2822e0fd3c12c29bf510ba6b7168f87daeb is ancestor of HEAD",
+          "tag source/client-html points at original tip",
+          "rev-list count 10 == 10",
+          "tree hash HEAD:sources/client-html == 5015503280072526f0d83086dac96e53ec6acd88",
+          "file listing identical (94 files)",
+          "worktree clean after import"
+        ]
+      }
+    },
+    {
+      "name": "client-css",
+      "url": "https://github.com/isaacslee/client-css",
+      "visibility_at_import": "private",
+      "default_branch": "main",
+      "branches": [
+        "main"
+      ],
+      "tags": [],
+      "path": "sources/client-css",
+      "source_tag": "source/client-css",
+      "original_tip": "2d08193118fc52a74cd6d898f8a9ddfc82c946b6",
+      "original_tree": "0a5e57df3c7a5a7c6d5195ace9ae1e9d99f9251e",
+      "archived_tip": "2d08193118fc52a74cd6d898f8a9ddfc82c946b6",
+      "archived_tree": "0a5e57df3c7a5a7c6d5195ace9ae1e9d99f9251e",
+      "commit_count": 5,
+      "first_commit_date": "2023-09-22T20:46:54+09:00",
+      "last_commit_date": "2023-10-04T17:42:59+09:00",
+      "import_commit": "7e38958d4dae150f9c64ca0399353b1d6a2a5241",
+      "imported_at": "2026-10-30T14:31:17+09:00",
+      "issues_prs_releases": "none (0 issues, 0 pull requests, 0 releases; checked via GitHub API)",
+      "history": {
+        "original_shas_preserved": 5,
+        "rewritten_commits": 0
+      },
+      "verification": {
+        "result": "pass",
+        "checks": [
+          "original commits present (5)",
+          "commit objects byte-identical (author/date/message/parents/signature)",
+          "tip 2d08193118fc52a74cd6d898f8a9ddfc82c946b6 is ancestor of HEAD",
+          "tag source/client-css points at original tip",
+          "rev-list count 5 == 5",
+          "tree hash HEAD:sources/client-css == 0a5e57df3c7a5a7c6d5195ace9ae1e9d99f9251e",
+          "file listing identical (65 files)",
+          "worktree clean after import"
+        ]
+      }
+    },
+    {
+      "name": "client-javascript",
+      "url": "https://github.com/isaacslee/client-javascript",
+      "visibility_at_import": "private",
+      "default_branch": "main",
+      "branches": [
+        "main"
+      ],
+      "tags": [],
+      "path": "sources/client-javascript",
+      "source_tag": "source/client-javascript",
+      "original_tip": "cb4c436dd555095653964232ab2018097849e012",
+      "original_tree": "860a55dee39fbcd1dc44a49210c84d77921a25f3",
+      "archived_tip": "cb4c436dd555095653964232ab2018097849e012",
+      "archived_tree": "860a55dee39fbcd1dc44a49210c84d77921a25f3",
+      "commit_count": 28,
+      "first_commit_date": "2023-10-04T17:44:33+09:00",
+      "last_commit_date": "2023-10-13T17:18:30+09:00",
+      "import_commit": "7e00150774aec8e88d678121b14a88510eebb106",
+      "imported_at": "2026-10-30T14:31:17+09:00",
+      "issues_prs_releases": "none (0 issues, 0 pull requests, 0 releases; checked via GitHub API)",
+      "history": {
+        "original_shas_preserved": 28,
+        "rewritten_commits": 0
+      },
+      "verification": {
+        "result": "pass",
+        "checks": [
+          "original commits present (28)",
+          "commit objects byte-identical (author/date/message/parents/signature)",
+          "tip cb4c436dd555095653964232ab2018097849e012 is ancestor of HEAD",
+          "tag source/client-javascript points at original tip",
+          "rev-list count 28 == 28",
+          "tree hash HEAD:sources/client-javascript == 860a55dee39fbcd1dc44a49210c84d77921a25f3",
+          "file listing identical (115 files)",
+          "worktree clean after import"
+        ]
+      }
+    },
+    {
+      "name": "client-jquery",
+      "url": "https://github.com/isaacslee/client-jquery",
+      "visibility_at_import": "private",
+      "default_branch": "main",
+      "branches": [
+        "main"
+      ],
+      "tags": [],
+      "path": "sources/client-jquery",
+      "source_tag": "source/client-jquery",
+      "original_tip": "bd1fa901f94e5c57987dd8e3052c338ad574eefc",
+      "original_tree": "74f55bc60390df048fa05d554c2e7e914b143507",
+      "archived_tip": "bd1fa901f94e5c57987dd8e3052c338ad574eefc",
+      "archived_tree": "74f55bc60390df048fa05d554c2e7e914b143507",
+      "commit_count": 1,
+      "first_commit_date": "2023-10-17T17:40:39+09:00",
+      "last_commit_date": "2023-10-17T17:40:39+09:00",
+      "import_commit": "0492dad5473924d9f083cb720ef6539b22b92d51",
+      "imported_at": "2026-10-30T14:31:17+09:00",
+      "issues_prs_releases": "none (0 issues, 0 pull requests, 0 releases; checked via GitHub API)",
+      "history": {
+        "original_shas_preserved": 1,
+        "rewritten_commits": 0
+      },
+      "verification": {
+        "result": "pass",
+        "checks": [
+          "original commits present (1)",
+          "commit objects byte-identical (author/date/message/parents/signature)",
+          "tip bd1fa901f94e5c57987dd8e3052c338ad574eefc is ancestor of HEAD",
+          "tag source/client-jquery points at original tip",
+          "rev-list count 1 == 1",
+          "tree hash HEAD:sources/client-jquery == 74f55bc60390df048fa05d554c2e7e914b143507",
+          "file listing identical (13 files)",
+          "worktree clean after import"
+        ]
+      }
+    },
+    {
+      "name": "server-jsp",
+      "url": "https://github.com/isaacslee/server-jsp",
+      "visibility_at_import": "private",
+      "default_branch": "main",
+      "branches": [
+        "main"
+      ],
+      "tags": [],
+      "path": "sources/server-jsp",
+      "source_tag": "source/server-jsp",
+      "original_tip": "f3f26d43123772eb3af9a7ccab985a9e383de63f",
+      "original_tree": "7317fe47e97935cea454e6769acbaa54fd893d38",
+      "archived_tip": "fd03f1fc01f2451234915f73614754c119c7fffa",
+      "archived_tree": "ea2d8602ca588a196887c6abd9326a4f9ff9f1ff",
+      "commit_count": 2,
+      "first_commit_date": "2023-10-17T17:45:27+09:00",
+      "last_commit_date": "2023-10-18T20:36:34+09:00",
+      "import_commit": "c8d3dd6bc9dc192608a4fbc2aae6173919e4b458",
+      "imported_at": "2026-10-30T14:31:17+09:00",
+      "issues_prs_releases": "none (0 issues, 0 pull requests, 0 releases; checked via GitHub API)",
+      "history": {
+        "original_shas_preserved": 1,
+        "rewritten_commits": 1,
+        "reason": "COS (cos.jar) binary removed",
+        "replacement": "cos.jar removed",
+        "sha_map": "metadata/sha-map/server-jsp.tsv"
+      },
+      "verification": {
+        "result": "pass",
+        "checks": [
+          "original commits present (2)",
+          "commit objects byte-identical (author/date/message/parents/signature)",
+          "tip fd03f1fc01f2451234915f73614754c119c7fffa is ancestor of HEAD",
+          "tag source/server-jsp points at original tip",
+          "rev-list count 2 == 2",
+          "tree hash HEAD:sources/server-jsp == ea2d8602ca588a196887c6abd9326a4f9ff9f1ff",
+          "file listing identical (40 files)",
+          "worktree clean after import",
+          "redaction: commit count 2 == 2",
+          "redaction: 1 unaffected commits keep original SHA and bytes",
+          "redaction: author, committer, dates, message identical for every commit",
+          "redaction: parent graph identical after SHA mapping",
+          "redaction: every other path/mode identical; 0 changed blob entries differ only by the redaction",
+          "redaction: removed entries ['ea39c98967']: 1 path entries across all commits, none left",
+          "redaction: removed jar blobs absent from the redacted repository's object store",
+          "redaction: tip mapped f3f26d4312 -> fd03f1fc01"
+        ]
+      }
+    },
+    {
+      "name": "server-jdbc",
+      "url": "https://github.com/isaacslee/server-jdbc",
+      "visibility_at_import": "private",
+      "default_branch": "main",
+      "branches": [
+        "main"
+      ],
+      "tags": [],
+      "path": "sources/server-jdbc",
+      "source_tag": "source/server-jdbc",
+      "original_tip": "033645fe0540f94b63b4fef7bacb92a1fd4b4f84",
+      "original_tree": "267b0113c1177aea83b9781e323fbcb0fb6f121a",
+      "archived_tip": "033645fe0540f94b63b4fef7bacb92a1fd4b4f84",
+      "archived_tree": "267b0113c1177aea83b9781e323fbcb0fb6f121a",
+      "commit_count": 1,
+      "first_commit_date": "2023-10-20T16:06:47+09:00",
+      "last_commit_date": "2023-10-20T16:06:47+09:00",
+      "import_commit": "d781a64e04f9303e1eb3012dea3993275f596dde",
+      "imported_at": "2026-10-30T14:31:17+09:00",
+      "issues_prs_releases": "none (0 issues, 0 pull requests, 0 releases; checked via GitHub API)",
+      "history": {
+        "original_shas_preserved": 1,
+        "rewritten_commits": 0
+      },
+      "verification": {
+        "result": "pass",
+        "checks": [
+          "original commits present (1)",
+          "commit objects byte-identical (author/date/message/parents/signature)",
+          "tip 033645fe0540f94b63b4fef7bacb92a1fd4b4f84 is ancestor of HEAD",
+          "tag source/server-jdbc points at original tip",
+          "rev-list count 1 == 1",
+          "tree hash HEAD:sources/server-jdbc == 267b0113c1177aea83b9781e323fbcb0fb6f121a",
+          "file listing identical (6 files)",
+          "worktree clean after import"
+        ]
+      }
+    },
+    {
+      "name": "server",
+      "url": "https://github.com/isaacslee/server",
+      "visibility_at_import": "private",
+      "default_branch": "main",
+      "branches": [
+        "main"
+      ],
+      "tags": [],
+      "path": "sources/server",
+      "source_tag": "source/server",
+      "original_tip": null,
+      "original_tree": null,
+      "archived_tip": "eefd23c3b6ccabbc2d8a7453f01548dbb1308d16",
+      "archived_tree": "6624da56c06c80ebdf5b7801801358e6c6b99441",
+      "commit_count": 5,
+      "first_commit_date": "2023-10-24T17:35:33+09:00",
+      "last_commit_date": "2023-11-01T20:38:12+09:00",
+      "import_commit": "2365156aa704c8afe133f439d7c0a2a62aa307de",
+      "imported_at": "2026-10-30T14:31:21+09:00",
+      "issues_prs_releases": "none (0 issues, 0 pull requests, 0 releases; checked via GitHub API)",
+      "history": {
+        "original_shas_preserved": 0,
+        "rewritten_commits": 5,
+        "reason": "external site login values in Eclipse local history (.metadata/.plugins/org.eclipse.core.resources/.history); Oracle JDBC (ojdbc6.jar) and COS (cos.jar) binaries removed at every path",
+        "replacement": "[REDACTED]; ojdbc6.jar and cos.jar removed",
+        "original_shas": "not published; kept in the owner's private record",
+        "rewritten": [
+          {
+            "archived_sha": "a02412590bd7b160a202edd2081001b59eaf37ee",
+            "author_date": "2023-10-24T17:35:33+09:00",
+            "subject": "init"
+          },
+          {
+            "archived_sha": "88375381a6c2481fa4f782827a29ea1ad52d501b",
+            "author_date": "2023-10-26T23:59:34+09:00",
+            "subject": "init"
+          },
+          {
+            "archived_sha": "6362e60a03293aba1f138965405a8d0736ddb5cf",
+            "author_date": "2023-10-27T14:19:51+09:00",
+            "subject": "init"
+          },
+          {
+            "archived_sha": "08de69d109e038b45f919ee95c2e841c39c79dfd",
+            "author_date": "2023-10-27T14:20:07+09:00",
+            "subject": "init"
+          },
+          {
+            "archived_sha": "eefd23c3b6ccabbc2d8a7453f01548dbb1308d16",
+            "author_date": "2023-11-01T20:38:12+09:00",
+            "subject": "init"
+          }
+        ]
+      },
+      "verification": {
+        "result": "pass",
+        "checks": [
+          "original commits present (5)",
+          "commit objects byte-identical (author/date/message/parents/signature)",
+          "tip eefd23c3b6ccabbc2d8a7453f01548dbb1308d16 is ancestor of HEAD",
+          "tag source/server points at original tip",
+          "rev-list count 5 == 5",
+          "tree hash HEAD:sources/server == 6624da56c06c80ebdf5b7801801358e6c6b99441",
+          "file listing identical (4971 files)",
+          "worktree clean after import",
+          "redaction: commit count 5 == 5",
+          "redaction: 0 unaffected commits keep original SHA and bytes",
+          "redaction: author, committer, dates, message identical for every commit",
+          "redaction: parent graph identical after SHA mapping",
+          "redaction: every other path/mode identical; 52 changed blob entries differ only by the redaction",
+          "redaction: removed entries ['d20359ea41', 'ea39c98967']: 36 path entries across all commits, none left",
+          "redaction: removed jar blobs absent from the redacted repository's object store",
+          "redaction: secret lms-id absent from all 7440 objects",
+          "redaction: secret lms-pw absent from all 7440 objects",
+          "redaction: secret ctx:lms-id absent from all 7440 objects",
+          "redaction: secret ctx:lms-pw absent from all 7440 objects",
+          "redaction: tip mapped (original SHA not published)"
+        ]
+      }
+    },
+    {
+      "name": "java-core-programming-study",
+      "url": "https://github.com/isaacslee/java-core-programming-study",
+      "visibility_at_import": "private",
+      "default_branch": "main",
+      "branches": [
+        "main"
+      ],
+      "tags": [],
+      "path": "sources/java-core-programming-study",
+      "source_tag": "source/java-core-programming-study",
+      "original_tip": "f5e09269c969da6c982cc838f745c6e1098c4b6d",
+      "original_tree": "82839d572724508b9373368938e674bc230dce6e",
+      "archived_tip": "f5e09269c969da6c982cc838f745c6e1098c4b6d",
+      "archived_tree": "82839d572724508b9373368938e674bc230dce6e",
+      "commit_count": 4,
+      "first_commit_date": "2024-02-24T13:54:00+09:00",
+      "last_commit_date": "2024-02-24T14:02:43+09:00",
+      "import_commit": "f318fff9278a2342bcaffcc4590fc0c0f4a4ebfc",
+      "imported_at": "2026-10-30T14:31:22+09:00",
+      "issues_prs_releases": "none (0 issues, 0 pull requests, 0 releases; checked via GitHub API)",
+      "history": {
+        "original_shas_preserved": 4,
+        "rewritten_commits": 0
+      },
+      "verification": {
+        "result": "pass",
+        "checks": [
+          "original commits present (4)",
+          "commit objects byte-identical (author/date/message/parents/signature)",
+          "tip f5e09269c969da6c982cc838f745c6e1098c4b6d is ancestor of HEAD",
+          "tag source/java-core-programming-study points at original tip",
+          "rev-list count 4 == 4",
+          "tree hash HEAD:sources/java-core-programming-study == 82839d572724508b9373368938e674bc230dce6e",
+          "file listing identical (3 files)",
+          "worktree clean after import"
+        ]
+      }
+    },
+    {
+      "name": "react-native-study",
+      "url": "https://github.com/isaacslee/react-native-study",
+      "visibility_at_import": "public",
+      "default_branch": "master",
+      "branches": [
+        "master"
+      ],
+      "tags": [],
+      "path": "sources/react-native-study",
+      "source_tag": "source/react-native-study",
+      "original_tip": "4cd2fca661db7002ff88b894e1c9736e5561043d",
+      "original_tree": "a5796f89b7e53ae772d45c7b00f455874fea1172",
+      "archived_tip": "4cd2fca661db7002ff88b894e1c9736e5561043d",
+      "archived_tree": "a5796f89b7e53ae772d45c7b00f455874fea1172",
+      "commit_count": 2,
+      "first_commit_date": "2024-10-20T17:28:32+09:00",
+      "last_commit_date": "2024-10-25T11:12:20+09:00",
+      "import_commit": "987dfe731a55f1ff473ab2cc19c3355095bbbfd7",
+      "imported_at": "2026-10-30T14:31:22+09:00",
+      "issues_prs_releases": "not checked (public repository; GitHub API not reachable from the import environment)",
+      "history": {
+        "original_shas_preserved": 2,
+        "rewritten_commits": 0
+      },
+      "verification": {
+        "result": "pass",
+        "checks": [
+          "original commits present (2)",
+          "commit objects byte-identical (author/date/message/parents/signature)",
+          "tip 4cd2fca661db7002ff88b894e1c9736e5561043d is ancestor of HEAD",
+          "tag source/react-native-study points at original tip",
+          "rev-list count 2 == 2",
+          "tree hash HEAD:sources/react-native-study == a5796f89b7e53ae772d45c7b00f455874fea1172",
+          "file listing identical (50 files)",
+          "worktree clean after import"
+        ]
+      }
+    },
+    {
+      "name": "spring-boot-study",
+      "url": "https://github.com/isaacslee/spring-boot-study",
+      "visibility_at_import": "public",
+      "default_branch": "main",
+      "branches": [
+        "main"
+      ],
+      "tags": [],
+      "path": "sources/spring-boot-study",
+      "source_tag": "source/spring-boot-study",
+      "original_tip": "fbba95e32c53e8012064f791b24b9380716a15c9",
+      "original_tree": "7ba28e94654f42be9e1d70ebe00ad3cc60a207da",
+      "archived_tip": "fbba95e32c53e8012064f791b24b9380716a15c9",
+      "archived_tree": "7ba28e94654f42be9e1d70ebe00ad3cc60a207da",
+      "commit_count": 3,
+      "first_commit_date": "2024-10-23T20:46:53+09:00",
+      "last_commit_date": "2024-10-26T22:12:51+09:00",
+      "import_commit": "2128ce9e48df68920ad3972bec6da287ea852135",
+      "imported_at": "2026-10-30T14:31:22+09:00",
+      "issues_prs_releases": "not checked (public repository; GitHub API not reachable from the import environment)",
+      "history": {
+        "original_shas_preserved": 3,
+        "rewritten_commits": 0
+      },
+      "verification": {
+        "result": "pass",
+        "checks": [
+          "original commits present (3)",
+          "commit objects byte-identical (author/date/message/parents/signature)",
+          "tip fbba95e32c53e8012064f791b24b9380716a15c9 is ancestor of HEAD",
+          "tag source/spring-boot-study points at original tip",
+          "rev-list count 3 == 3",
+          "tree hash HEAD:sources/spring-boot-study == 7ba28e94654f42be9e1d70ebe00ad3cc60a207da",
+          "file listing identical (19 files)",
+          "worktree clean after import"
+        ]
+      }
+    }
+  ]
+}
