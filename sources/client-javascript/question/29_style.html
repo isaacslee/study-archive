@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="Author" content="in">
+	<meta name="Generator" content="Visual Studio Code">
+	<title>JavaScript</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+	<link rel="stylesheet" href="basic.css">
+	<style type="text/css">
+		.item {
+			position: absolute;
+		}
+	</style>
+</head>
+<body oncontextmenu='return false' ondragstart='return false' onselectstart='return false'>
+
+	<!--
+	문서를 클릭하면 해당 위치에 이미지를 추가하시오.
+	m01.png ~ m10.png 무작위로 추가하시오.
+	이미지를 최대 10개까지 출력하시오.
+	10개가 넘어가면 오래된 순서대로 삭제하시오.
+	-->
+
+	<script type="text/javascript">
+		var item;
+		var imgCount = 0;
+		var firstImage = null;
+		
+		window.onload = function() {		
+			window.onmousedown = function () {
+				imgCount = 0;
+				var n = Math.floor(Math.random() * 9) + 1;
+				
+				img = document.createElement("img");
+				img.setAttribute("class", "item");
+				img.setAttribute("src", "../../asset/images/m0"+ n + ".png");
+				img.style.left = (event.clientX - 64) + "px";
+				img.style.top = (event.clientY - 64) + "px";
+				
+				document.body.appendChild(img);
+	
+				//최대 10개
+				for (var i=0; i<document.body.children.length; i++) {
+					if (document.body.children[i].nodeName == "IMG") {
+						if (firstImage == null) {
+							firstImage = document.body.children[i];
+						}
+						imgCount++;
+					}
+				}
+	
+				if (imgCount > 10) {
+					document.body.removeChild(firstImage);
+					firstImage = null;
+				}
+			}
+		};
+	</script>
+</body>
+</html>
